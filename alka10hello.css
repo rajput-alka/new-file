@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*NAVIGATION BAR*/
+
+.main {
+
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 0.2px solid #0D1216B2;
+  border-top: 0.2px solid #0D1216B2;
+  position: fixed;
+  z-index: 1;
+
+
+
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+
+
+}
+
+a {
+  padding: 6px 20px 0px 20px;
+  color: #0D1216B2;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+
+}
+
+.icon {
+  padding: 10px 20px 0px 10px;
+  display: none;
+}
+
+@media(max-width:665px) {
+  .icon {
+    display: block;
+  }
+
+  a {
+    display: none;
+  }
+}
+
+/*BACK IMAGE OF A LADY*/
+
+.main1 {
+  height: auto;
+  padding-top: 100px;
+
+
+
+}
+
+.left {
+  height: auto;
+
+
+}
+
+.right {
+  height: auto;
+
+}
+
+.section1 {
+  font-weight: 700;
+  padding-bottom: 30px;
+
+}
+
+.section2 {
+  font-size: 70px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.section3 {
+  font-size: 30px;
+
+}
+
+/* IMAGE OF PAPERS*/
+
+.main2 {
+  margin-top: 200px;
+
+
+}
+
+.top {
+  height: auto;
+  padding-left: 50px;
+}
+
+.bottom {
+  height: auto;
+
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+
+}
+
+p {
+  font-size: 20px;
+}
+
+/*SECTION OF TWO POSTER*/
+
+.main3 {
+  height: auto;
+  margin-top: 70px;
+
+}
+
+.top1 {
+  height: auto;
+
+}
+
+.bottom1 {
+  height: auto;
+  padding-top: 40px;
+  object-fit: contain;
+
+
+}
+
+.section4 {
+  font-size: 50px;
+  font-weight: 400;
+
+}
+
+.blank3 {
+  padding: 0px 20px 10px 0px;
+
+}
+
+.blank2 {
+  padding: 0px 20px 10px 0px;
+}
+
+/* SECTION OF FOUR POSTER*/
+
+.main4 {
+  height: auto;
+  margin-top:100px;
+  background-color: aliceblue;
+}
+
+.top2 {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px 40px 0px;
+}
+
+.bottom2 {
+  height: auto;
+
+}
+
+.blue {
+  font-size: 50px;
+  font-weight: 400;
+  padding-top: 60px;
+
+
+}
+  
+  /*PICTURE OF BAGS*/
+
+.main8 {
+  margin-top:150px;
+}
+
+/*THIS IS PICTURE OF MAN*/
+
+.main9 {
+  margin-top: 80px;
+}
+
+/*THREE VIDEO SECTION*/
+
+.main10 {
+  margin-top: 200px;
+}
+
+/*THIS  SECTION IS "EXPLORE YOUR BRAND"*/
+.main11 {
+  margin-top: 200px;
+
+}
+
+.xyz1 {
+  height: auto;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  position: relative;
+
+}
+@media(max-width:440px){
+  .xyz5{
+    top:40px;
+  }
+} 
+
+.xyz2 {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+}
+
+.xyz3 {
+  font-size: 55px;
+  font-weight: 700;
+  text-decoration: underline;
+
+
+}
+
+.xyz4 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.xyz5 {
+  position: absolute;
+ 
+  
+  
+} 
+@media(max-width:440px){
+  .xyz5{
+    top:40px;
+  }
+} 
+
+
+
+
+/* SECTIOIN OF SIX*/
+
+.red {
+  color: white;
+}
+
+/* THIS IS SECTION OF PRESS*/
+
+.main13 {
+  margin-top: 100px;
+}
+
+.press2 {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.press1 {
+  padding: 30px 30px 30px 30px;
+
+}
+
+
+/*SECTION OF BRANDS*/
+.main14 {
+  height: auto;
+  margin-top: 100px;
+  border-top: 20px solid yellow;
+}
+
+.pres {
+  font-size: 70px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/*THIS IS  FOOTER SECTION*/
+
+.main15 {  
+
+   margin-bottom: 10px;
+   margin-top: 80px;
+  height: auto;
+  background-color:rgba(36, 36, 175,1);
+
+}
+@media(max-width:420px){
+  .scroll1{
+    top:0px;
+    
+  }
+}
+
+@media(max-width:420px){
+  .scroll{
+    top:0px;
+  
+  }
+}
+
